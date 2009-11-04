@@ -1,0 +1,50 @@
+oggconvert
+------------------------------------------
+A simple Gnome utility to convert media files into the patent-free 
+Theora, Dirac and Vorbis formats.
+
+Runtime requirements:
+  gstreamer0.10-plugins-base
+  gstreamer0.10-plugins-good
+  gstreamer0.10-plugins-ogg
+  gstreamer0.10-plugins-schro
+  gstreamer0.10-plugins-theora
+  gstreamer0.10-plugins-vorbis
+  python-2.5.4-10
+  python-gobject2.0-2.20.0-1
+  python-gst0.10-0.10.17-1
+  python-gtk2.0-2.16.0-1
+
+Build requirements:
+  cygport-0.9.9-1
+  python-2.5.4-10
+
+Canonical website:
+  http://oggconvert.tristanb.net/
+
+Canonical download:
+  http://oggconvert.tristanb.net/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack oggconvert-0.3.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./oggconvert-0.3.2-X.cygport all
+
+This will create:
+  /usr/src/oggconvert-0.3.2-X-src.tar.bz2
+  /usr/src/oggconvert-0.3.2-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.3.2-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
