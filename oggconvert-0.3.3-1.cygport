@@ -3,4 +3,3 @@ inherit distutils
 DESCRIPTION="GTK+ GUI for converting media to patent-free formats"
 HOMEPAGE="http://oggconvert.tristanb.net/"
 SRC_URI="http://oggconvert.tristanb.net/releases/${PV}/${P}.tar.gz"
-PATCH_URI="0.3.2-schro.patch"
