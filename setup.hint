@@ -1,7 +1,0 @@
-category: Audio Video
-requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-ogg gstreamer0.10-plugins-schro gstreamer0.10-plugins-theora gstreamer0.10-plugins-vorbis python python-gobject2.0 python-gst0.10 python-gtk2.0
-sdesc: "Converts media to Xiph patent-free formats"
-ldesc: "A simple Gnome utility to convert media files into the patent-free
-Theora, Dirac and Vorbis formats."
-
-

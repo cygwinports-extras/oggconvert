@@ -1,0 +1,13 @@
+inherit distutils
+
+NAME="oggconvert"
+VERSION=0.3.3
+RELEASE=2
+CATEGORY="Audio Video"
+SUMMARY="Converts media to Xiph patent-free formats"
+DESCRIPTION="A simple Gnome utility to convert media files into the patent-free
+Theora, Dirac and Vorbis formats."
+HOMEPAGE="http://oggconvert.tristanb.net/"
+SRC_URI="http://oggconvert.tristanb.net/releases/${PV}/${P}.tar.gz"
+
+REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-ogg gstreamer0.10-plugins-schro gstreamer0.10-plugins-theora gstreamer0.10-plugins-vorbis"
